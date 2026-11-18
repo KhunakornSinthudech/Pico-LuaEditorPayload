@@ -16,6 +16,6 @@ PAYLOAD_FILE    = "file name you put in 4."
 1. Open Seedsow Lua Editor
 2. open RecievePC menu and calibrate with you joycon once.
 3. Reopen Lua editor and put the Cursor at RecievePC.
-3. Connect the board and wait till it blinking slowlw
-4. start the RecievePC
+3. Connect the board and wait till it blinking slowly.
+4. start the RecievePC.
 5. wait until it finish.
