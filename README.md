@@ -46,13 +46,3 @@ mode the board does nothing else and is safe to edit.
 | Fast blink for 2 s, then off | Done |
 | Fast blink that never stops | Error, nothing was sent (payload file missing or empty, bad `TARGET_SLOT`, or no gamepad device) |
 | Solid on | GP15 is shorted: file-edit mode |
-
-### Speed and troubleshooting
-
-Each nibble takes `PREPARE_TIME + HOLD_TIME` (55 ms by default), about
-9 bytes per second, so a 10 KB file takes around 18 minutes. Keep the
-payload small (strip comments and whitespace).
-
-If the editor reports a checksum error, increase `PREPARE_TIME` and
-`HOLD_TIME` a little. `PREPARE_TIME` should be at least one frame of the
-receiving app.

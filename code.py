@@ -9,8 +9,7 @@ TARGET_FILENAME = "core.lua"
 TARGET_SLOT     = None              # None -> F000_<name>, 4..120 -> P###_<name>
 PAYLOAD_FILE    = "core_compact.lua"
 
-# Timing per nibble (seconds). If transfers fail the checksum, raise these
-# first: PREPARE_TIME should be at least one frame of the receiving app.
+# Timing per nibble (seconds). Tuned for stability; don't change.
 PREPARE_TIME = 0.02
 HOLD_TIME    = 0.035
 
