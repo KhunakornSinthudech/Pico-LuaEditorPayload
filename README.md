@@ -11,6 +11,7 @@ Using PICO as a payload for Seedsow Lua Editor
 TARGET_FILENAME = "file name at switch"
 TARGET_SLOT     = target slot number
 PAYLOAD_FILE    = "file name you put in 4."
+6. Put boot.py and code.py to the root folder of the board.
 
 ### Usage
 1. Open Seedsow Lua Editor
